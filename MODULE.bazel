@@ -3,9 +3,9 @@ module(name = "bazel-cgo", version = "0.0.1")
 ###############################################################################
 # Bazel dependencies
 
-bazel_dep(name = "gazelle", version = "0.39.0")
-bazel_dep(name = "libzmq", version = "4.3.5.bcr.1")
-bazel_dep(name = "rules_go", version = "0.50.1")
+bazel_dep(name = "gazelle", version = "0.51.3")
+bazel_dep(name = "libzmq", version = "4.3.5.bcr.5")
+bazel_dep(name = "rules_go", version = "0.61.1")
 
 ###############################################################################
 # Go extensions
